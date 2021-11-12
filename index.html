@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant-website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="btnWithMenuIcon()" class="menuBtn" id="btnWithMenuIcon">
+    <div class="mainIcon" id="mainIcon">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+    </div>
+    <span style="font-size: large;">Menu</span>
+    </button>
+  
+    <button onclick="btnWithCloseIcon()" class="menuBtn" id="btnWithCloseIcon">
+        <div class="close" id="close">&times;</div>
+        <span style="font-size: large;">Menu</span>
+        </button>
+
+    <div class="content" id="content">
+    <!--menu items-->
+        <div class="menuItems" id="menuItems">
+           <div class="item">TACOS</div>
+           <div class="item">BEERS</div>
+           <div class="item">WINES</div>
+           <div class="item">DESSERTS</div>
+           <div class="item">RESERVATIONS</div>
+
+        </div>
+
+        <div class="food-and-price-container">
+            <div class="food-image" >
+            <p class="text1">
+                <b>Terry's Taco Joint</b><br>
+                
+            </p>
+            <p class="text2" >
+                <b>Pretty Good Tacos!</b>
+            </p>
+            </div>
+            <div class="prices">
+               <button class="button">$1.99<br>Tacos</button>
+               <button class="button">$3.99<br>Kombucha</button>
+            </div>
+            
+        </div>
+         
+        <!--tacos , beer , wine , and music-->
+            <section class="tacos-beer-wine-music">
+                 <!--for Tacos-->
+                <div class="chooseItem">
+                    <img src="images/tacos.JPG" alt="Tacos"/>
+                    <div><b>Tacos</b></div>
+                    <p class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+                </div>
+
+                <!--for Beer-->
+                <div class="chooseItem">
+                    <img src="images/beer.JPG" alt="Beer"/>
+                    <div><b>Beer</b></div>
+                    <p class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+
+                </div>
+
+                <!--for wine-->
+                <div class="chooseItem">
+                    <img src="images/wine.JPG" alt="Wine"/>
+                    <div><b>Wine</b></div>
+                    <p class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+
+                </div>
+
+                <!--for music-->
+                <div class="chooseItem">
+                    <img src="images/music.JPG" alt="music"/>
+                    <div><b>Music</b></div>
+                    <p class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+                </div>
+            </section>
+     
+
+        <!--feature taco-->
+        <div class="feature-taco">
+               <div><img src="images/featuredTaco.JPG" class="feature-taco-image"/></div>
+
+        
+               <div class="feature-taco-content">
+                   <h2><b>Featured Taco</b></h2>
+                   <p><b>Slim Profile, easy to hold and loaded with cheese.</b></p>
+                   <p><b>This is the one you have been waiting for</b></p>
+                   <div style="background-color: yellow; font-size: 25px; width: fit-content;">Learm More <span>&#8594</span></div>
+                </div>
+
+        </div>
+
+        <div class="instant-games">
+            <div class="left-line"></div>
+            <div class="text">Instant Games</div>
+            <div class="right-line"></div>
+
+        </div>
+
+        <div class="games-galaxy">
+            <div><img src="images/image1.JPG"/></div>
+            <div><img src="images/image2.JPG"/></div>
+            <div><img src="images/image3.JPG"/></div>
+            <div><img src="images/image4.JPG"/></div>
+            <div><img src="images/image5.JPG"/></div>
+            <div><img src="images/image6.JPG"/></div>
+            <div><img src="images/image7.JPG"/></div>
+            <div><img src="images/image8.JPG"/></div>
+            <div><img src="images/image9.JPG"/></div>
+            <div><img src="images/image10.JPG"/></div>
+        </div>
+        <footer>
+            By Desmond Owusu Ansah<br>
+            desmond0406114009@gmail.com
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
